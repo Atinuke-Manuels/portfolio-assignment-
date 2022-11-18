@@ -16,6 +16,7 @@ div.wrapper {
     padding: 10px 40px;
     width: 57%;
     margin: 0 auto;
+    border: 20px solid #c3a8c7;
 }
 
 nav.nav {
@@ -34,10 +35,12 @@ ul.navigation {
 
 ul.navigation li {
     margin-left: 25px;
+    font-size: 10px;
 }
 
 ul.navigation li a {
     color: black;
+    font-size: 10px;
 }
 
 ul.navigation li button {
@@ -47,14 +50,17 @@ ul.navigation li button {
     border: none;
     border-radius: 5px;
     outline: none;
+    font-size: 10px;
+    width: 70px;
 }
 
 .intro-image img {
-    width: 300px;
+    width: 200px;
+    height: 200px;
 }
 
 div.intro {
-    margin-bottom: 50px;
+    margin-bottom: 30px;
 }
 
 div.intro-text {
@@ -68,7 +74,7 @@ div.about {
 }
 
 div.about-text {
-    width: 380px;
+    width: 300px;
 }
 
 div.about-skills span {
@@ -81,5 +87,13 @@ div.about-skills span li {
     border: 1px solid rgba(0, 0, 0, 0.13);
     border-radius: 5px;
     padding: 2px;
+    font-size: 13px;
+}
+.intro-flex{
+    justify-content: space-between;
+    align-items: center;
+    display: flex;
+}
+.name{
     font-size: 13px;
 }
