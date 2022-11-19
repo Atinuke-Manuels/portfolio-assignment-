@@ -83,6 +83,7 @@ div.intro-text {
 div.about {
     justify-content: space-between; /* horizontal plane */
     align-items: center;
+    margin-bottom: 60px;
 }
 
 div.about-text {
@@ -106,6 +107,7 @@ div.about-skills span li {
     justify-content: space-between;
     align-items: center;
     display: flex;
+    margin-bottom: 60px;
 }
 .name{
     font-size: 13px;
