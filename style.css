@@ -30,6 +30,7 @@ div.wrapper {
     width: 645px;
     height: 650px;
     padding: 6px;
+    margin: auto;
 }
 
 nav.nav {
