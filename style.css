@@ -5,7 +5,7 @@
 
 body {
     font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-    padding: 50px 150px;
+    /* padding: 50px 150px; */
 }
 
 a {
@@ -21,14 +21,14 @@ div.wrapper {
    border-radius: 15px;
    margin: 20px;
    padding: 15px;
-   
+
 
 }
 
 .background{
     background-image: linear-gradient(to left,#f17ba9, #bee4ed);
     max-width: 645px;
-    min-height: 650px;
+    max-height: 650px;
     padding: 6px;
     margin: auto;
 }
@@ -121,7 +121,7 @@ div.about-skills span li {
         display: flex;
         flex-direction: column;
         margin-bottom: 10px;
-        align-items: flex-start;
+        align-items: center;
     }
     ul.navigation {
         margin-left: -5.5em;
@@ -146,8 +146,8 @@ div.about-skills span li {
         font-size: 12px;
     }
     .intro-image img {
-       align-items: baseline;
        max-width: 100px;
+       align-self: flex-start;
      } 
      
     div.about {
@@ -168,12 +168,13 @@ div.about-skills span li {
         font-size: 10px;
     }
     div.about-skills {
-      margin-left: -2em;
+      /* margin-left: -2em; */
       margin-bottom: -5em;
       max-width: 380px;
+     align-self: flex-start;
     }
     .name{
         font-size: 11px;
-        color: rgb(163, 163, 7);
+        color: rgb(170, 170, 58);
     } 
 }
