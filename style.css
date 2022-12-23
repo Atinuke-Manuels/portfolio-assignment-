@@ -168,10 +168,10 @@ div.about-skills span li {
         font-size: 10px;
     }
     div.about-skills {
-      /* margin-left: -2em; */
+      margin-left: -0.5em;
       margin-bottom: -5em;
-      max-width: 380px;
-     align-self: flex-start;
+      min-width: 380px;
+     align-items: flex-start;
     }
     .name{
         font-size: 11px;
