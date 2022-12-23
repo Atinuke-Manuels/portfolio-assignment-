@@ -21,8 +21,6 @@ div.wrapper {
    border-radius: 15px;
    margin: 20px;
    padding: 15px;
-
-
 }
 
 .background{
@@ -147,7 +145,6 @@ div.about-skills span li {
     }
     .intro-image img {
        max-width: 100px;
-       align-self: flex-start;
      } 
      
     div.about {
@@ -160,7 +157,6 @@ div.about-skills span li {
         margin-left: 22px;
     }
     div.about-skills span {
-        margin-left: 20px;
         padding-top: 5px;
         
     }
@@ -168,10 +164,9 @@ div.about-skills span li {
         font-size: 10px;
     }
     div.about-skills {
-      margin-left: -0.5em;
       margin-bottom: -5em;
-      min-width: 380px;
-     align-items: flex-start;
+      max-width: 380px;
+    
     }
     .name{
         font-size: 11px;
