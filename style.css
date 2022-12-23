@@ -27,8 +27,8 @@ div.wrapper {
 
 .background{
     background-image: linear-gradient(to left,#f17ba9, #bee4ed);
-    width: 645px;
-    height: 650px;
+    max-width: 645px;
+    min-height: 650px;
     padding: 6px;
     margin: auto;
 }
@@ -65,12 +65,12 @@ ul.navigation li button {
     border-radius: 5px;
     outline: none;
     font-size: 10px;
-    width: 70px;
+   max-width: 70px;
 }
 
 .intro-image img {
-    width: 200px;
-    height: 200px;
+   max-width: 200px;
+    max-height: 200px;
 }
 
 div.intro {
@@ -79,22 +79,22 @@ div.intro {
 
 div.intro-text {
     margin-left: 22px;
-    width: 380px;
+    max-width: 380px;
   }
 
 div.about {
-    justify-content: space-between; /* horizontal plane */
+    justify-content: space-between;
     align-items: center;
     margin-bottom: 60px;
 }
 
 div.about-text {
-    width: 300px;
+    max-width: 300px;
 }
 
 div.about-skills span {
     display: flex;
-    width: 250px;
+   max-width: 250px;
 }
 
 div.about-skills span li {
@@ -113,4 +113,67 @@ div.about-skills span li {
 }
 .name{
     font-size: 13px;
+}
+
+@media  screen and (max-width:793px) {
+    
+    nav.nav {
+        display: flex;
+        flex-direction: column;
+        margin-bottom: 10px;
+        align-items: flex-start;
+    }
+    ul.navigation {
+        margin-left: -5.5em;
+        font-size: 8px;
+    }
+    ul.navigation li button {
+        color: white;
+        background-color: purple;
+        padding: 3px 7px;
+        font-size: 8px;
+       max-width: 70px;
+      
+    }
+    ul.navigation li {
+        margin-left: 5px;
+    }
+    .intro-flex{
+        align-items: center;
+        display: flex;
+        flex-direction: column;
+        margin-bottom: 10px;
+        font-size: 12px;
+    }
+    .intro-image img {
+       align-items: baseline;
+       max-width: 100px;
+     } 
+     
+    div.about {
+        display: flex;
+        flex-direction: column;
+        font-size: 12px;
+    }
+    div.about-text {
+        max-width: 380px;
+        margin-left: 22px;
+    }
+    div.about-skills span {
+        margin-left: 20px;
+        padding-top: 5px;
+        
+    }
+    div.about-skills span li {
+        font-size: 10px;
+    }
+    div.about-skills {
+      margin-left: -2em;
+      margin-bottom: -5em;
+      max-width: 380px;
+    }
+    .name{
+        font-size: 11px;
+        color: rgb(163, 163, 7);
+    } 
 }
