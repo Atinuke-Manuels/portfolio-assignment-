@@ -73,7 +73,7 @@ ul.navigation li button {
 }
 
 div.intro {
-    margin-bottom: 30px;
+    margin-bottom: 15px;
 }
 
 div.intro-text {
@@ -84,7 +84,7 @@ div.intro-text {
 div.about {
     justify-content: space-between;
     align-items: center;
-    margin-bottom: 60px;
+    margin-bottom: 20px;
 }
 
 div.about-text {
@@ -108,7 +108,7 @@ div.about-skills span li {
     justify-content: space-between;
     align-items: center;
     display: flex;
-    margin-bottom: 60px;
+    margin-bottom: 20px;
 }
 .name{
     font-size: 13px;
@@ -116,6 +116,12 @@ div.about-skills span li {
 
 @media  screen and (max-width:793px) {
     
+    .background{
+        max-height: 1000px;
+    }
+    .wrapper{
+        min-height: 530px;
+    }
     nav.nav {
         display: flex;
         flex-direction: column;
