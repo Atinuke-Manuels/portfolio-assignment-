@@ -120,7 +120,7 @@ div.about-skills span li {
         max-height: 100%;
     }
     .wrapper{
-        min-height: 530px;
+        min-height: 600px;
     }
     nav.nav {
         display: flex;
@@ -171,7 +171,7 @@ div.about-skills span li {
         font-size: 10px;
     }
     div.about-skills {
-      margin-bottom: -5em;
+      /* margin-bottom: -1em; */
       max-width: 380px;
     
     }
