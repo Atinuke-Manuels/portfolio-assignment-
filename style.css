@@ -117,7 +117,7 @@ div.about-skills span li {
 @media  screen and (max-width:793px) {
     
     .background{
-        max-height: 1000px;
+        max-height: 100%;
     }
     .wrapper{
         min-height: 530px;
